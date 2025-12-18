@@ -116,6 +116,5 @@ echo ""
 echo "install OK!" # 提示安装完成
 echo ""
 echo "enjoy!"
-echo "  tanbushi 2019-01-29"
 echo ""
 echo ""
