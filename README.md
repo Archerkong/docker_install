@@ -22,4 +22,11 @@ sudo systemctl reset-failed docker.socket
 systemctl restart docker
 ```
 
+docker compose以插件形式安装
+```
+[root@clari clair]# docker compose version
+Docker Compose version v2.27.0
+
+```
+
 from https://cloud.tencent.com/developer/article/2499340
