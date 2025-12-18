@@ -15,6 +15,7 @@ chmod +x docker_install.sh
 
 ```
 <img width="1831" height="484" alt="image" src="https://github.com/user-attachments/assets/4d121016-0557-4a88-9c64-6873c6f3547e" />
+
 ```
 sudo systemctl reset-failed docker.service
 sudo systemctl reset-failed docker.socket
