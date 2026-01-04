@@ -14,6 +14,7 @@ wget -O /etc/yum.repos.d/docker-ce.repo https://mirrors.huaweicloud.com/docker-c
 sudo sed -i 's+download.docker.com+mirrors.huaweicloud.com/docker-ce+' /etc/yum.repos.d/docker-ce.repo
 yum clean all
 sudo yum makecache
+dnf -y -q --best install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 systemctl start docker
 systemctl enable docker
 docker --version
